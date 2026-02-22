@@ -227,21 +227,4 @@ By combining dimensional modeling, conversion analysis, and scenario-based forec
 
 The resulting analytics system enables sustainable capacity planning, ticket release optimization, and long-term community retention strategy.
 
-
----
-
-## 🎓 Education & Certifications
-
-B.S. in Management Information Systems & Business Analytics  
-M.S. in Data Analytics (In Progress – AI & Machine Learning Minor)  
-
-SAS Certifications:
-- Statistics & Data Mining for Business Intelligence  
-- Predictive Analytics Management  
-- Enterprise Performance Management  
-- Applied Data Analytics  
-
----
-
-**Kevin Turner II**  
-Colorado State University Global  
+ 
