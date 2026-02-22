@@ -131,25 +131,24 @@ No hidden filters.
 
 ### Growth Overview
 <p align="center">
-  <img src="images/cozy craft growth 1.png" width="80%">
+  <img src="images/cozy%20craft%20growth%201.png" width="80%">
 </p>
 
 ### Attendance & Utilization
 <p align="center">
-  <img src="images/cozy craft attendance & utilization 2.png" width="80%">
+  <img src="images/cozy%20craft%20attendance%20%26%20utilizaation%202.png" width="80%">
 </p>
 
 ### Engagement Model
 <p align="center">
-  <img src="images/cozy craft engagement 3.png" width="80%">
+  <img src="images/cozy%20craft%20engagement%203%20.png" width="80%">
 </p>
 
 ### Capacity Forecast
 <p align="center">
-  <img src="images/cozy craft forecast 4.png" width="80%">
+  <img src="images/cozy%20craft%20forecast%204.png" width="80%">
 </p>
 
----
 
 ## 🛠 Tools & Technologies
 
