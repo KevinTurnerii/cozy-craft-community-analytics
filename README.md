@@ -1,12 +1,11 @@
-# 🧶 Cozy Craft Community Analytics  
+# Cozy Craft Community Analytics  
 Community Growth • Engagement Modeling • Capacity Forecasting  
 
-Comprehensive event analytics using Python and Power BI.  
-Applies dimensional modeling, KPI engineering, and executive dashboard design to evaluate community growth, attendance utilization, and retention behavior.
+Event-level analytics framework built in Python and Power BI to evaluate growth sustainability, attendance utilization, and retention behavior across scaled community operations.
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Business Objective](#business-objective)
@@ -16,28 +15,27 @@ Applies dimensional modeling, KPI engineering, and executive dashboard design to
 - [Power BI Dashboard](#power-bi-dashboard)
 - [Dashboard Preview](#dashboard-preview)
 - [Tools & Technologies](#tools--technologies)
-- [Skills Demonstrated](#skills-demonstrated)
 - [Business Impact](#business-impact)
 - [Conclusion](#conclusion)
+- [Reproducibility & Validation](#-data-integrity--validation)
 - [Repository Structure](#repository-structure)
-- [Education & Certifications](#education--certifications)
+
+  
 ---
 
-## 📘 Project Overview
+##  Project Overview
 
-This project analyzes Cozy Craft’s transition from three 2025 pilot events to expanded 2026 operations, measuring growth sustainability, attendance efficiency, and repeat engagement behavior across six total events.
-
-While 2025 established initial capacity build, 2026 serves as the first statistically reliable operational baseline for forecasting and KPI modeling.
-
----
-
-## 🎯 Business Objective
-
-To evaluate community expansion, measure attendance efficiency, and design a data-driven ticket release strategy that supports sustainable growth.
+This project analyzes Cozy Craft’s transition from three 2025 pilot events to scaled 2026 operations, measuring attendance efficiency, repeat engagement, and growth sustainability across six total events.
 
 ---
 
-## 🏗 Data Architecture
+##  Business Objective
+
+To evaluate attendance efficiency, quantify community retention depth, and design a predictive ticket release strategy that supports sustainable operational scaling.
+
+---
+
+##  Data Architecture
 
 Dimensional modeling approach:
 
@@ -51,13 +49,12 @@ Dimensional modeling approach:
 Design principles:
 
 - One row per event grain  
-- Explicit separation of seats reserved vs verified check-ins  
-- No silent filtering or recomputation  
+- Explicit separation of seats reserved vs verified check-ins    
 - All Power BI visuals driven from validated notebook outputs  
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 The project followed a structured analytics pipeline:
 
@@ -72,25 +69,25 @@ All KPI calculations were programmatically validated in the final notebook secti
 
 ---
 
-## 📊 Key Metrics & Insights
+##  Key Metrics & Insights
 
 Analysis spans 6 total events (3 in 2025, 3 in 2026), with 2026 treated as the first stable operational baseline.
 
-### 📈 Capacity Growth
+###  Capacity Growth
 - **206% total capacity growth (2025 → 2026)**  
 - Event expansion from pilot-scale to large-format meetups  
 
-### 🎟 Attendance Utilization
+###  Attendance Utilization
 - **46% average verified attendance rate (2026)**  
 - Clear opportunity to optimize ticket release volume  
 
-### 🔁 Engagement Depth
-- **44.31% buyer conversion rate**  
-- **18.92% repeat core participation rate**  
-
+###  Engagement Depth
+- **44.31% Buyer → Attendee conversion rate (2026 baseline)**   
+- **18.92% repeat core participation rate (2+ events)**
+  
 Indicates early-stage community loyalty formation.
 
-### 📦 Forecast Model
+###  Forecast Model
 - **152 recommended ticket release**  
   to achieve ~70 verified attendees  
   (Based on historical attendance behavior)
@@ -99,7 +96,7 @@ Demonstrates operational forecasting capability.
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 Power BI serves as the executive synthesis layer.
 
@@ -121,15 +118,13 @@ Power BI serves as the executive synthesis layer.
 ### Page 4 — Forecast
 - Ticket Release Scenario Modeling  
 - Attendance Target Planning  
-- Capacity Optimization Strategy  
-
-All measures implemented in DAX.  
-No Power Query transformations.  
-No hidden filters.
+- Capacity Optimization Strategy
+  
+All measures implemented in DAX and trace directly to validated notebook outputs.
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
 These visuals represent the final executive reporting layer, built exclusively on validated modeling outputs from the Python pipeline.
 
@@ -154,7 +149,7 @@ These visuals represent the final executive reporting layer, built exclusively o
 </p>
 
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 - Python (pandas, KPI engineering, modeling)  
 - Jupyter Notebook  
@@ -163,26 +158,14 @@ These visuals represent the final executive reporting layer, built exclusively o
 
 ---
 
-## 💼 Skills Demonstrated
-
-- KPI Engineering  
-- Event-Level Fact Table Design  
-- Attendance Forecast Modeling  
-- Conversion Funnel Analysis  
-- Repeat Engagement Segmentation  
-- Executive Dashboard Development  
-- Data Integrity & Metric Reconciliation  
-
----
-
-## 🚀 Business Impact
+##  Business Impact
 
 This project demonstrates the ability to:
 
 - Translate event-level operational data into strategic KPIs  
 - Identify inefficiencies in ticket utilization  
 - Quantify community engagement depth  
-- Design actionable growth forecasts  
+- Design data-driven growth forecasts    
 - Deliver stakeholder-ready dashboards  
 
 The framework can be adapted for:
@@ -194,7 +177,7 @@ The framework can be adapted for:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 cozy-craft-community-analytics/
@@ -211,7 +194,7 @@ cozy-craft-community-analytics/
 
 ---
 
-## 🔒 Data Integrity & Validation
+##  Data Integrity & Validation
 All executive KPIs were programmatically derived and reconciled against raw check-in exports in the final notebook section.
 
 No manual adjustments were applied to reporting outputs.
@@ -219,12 +202,11 @@ All dashboard measures trace directly to validated modeling results.
 
 ---
 
-## 🧭 Conclusion
+##  Conclusion
 
 Cozy Craft’s expansion from pilot events to scaled 2026 operations established a measurable attendance baseline and a predictable engagement structure.
+By combining dimensional modeling, conversion analysis, and scenario-based forecasting, this framework transforms event-level exports into a strategic capacity and retention planning system.
+The resulting analytics framework enables sustainable capacity planning, ticket optimization, and long-term community retention strategy.
 
-By combining dimensional modeling, conversion analysis, and scenario-based forecasting, this project transforms event-level exports into a strategic growth framework.
-
-The resulting analytics system enables sustainable capacity planning, ticket release optimization, and long-term community retention strategy.
 
  
