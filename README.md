@@ -1,7 +1,9 @@
 # Cozy Craft Community Analytics  
 Community Growth • Engagement Modeling • Capacity Forecasting  
 
-Event-level analytics framework built in Python and Power BI to evaluate growth sustainability, attendance utilization, and retention behavior across scaled community operations.
+Event-level analytics and forecasting framework built in Python and Power BI to evaluate growth sustainability, attendance utilization efficiency, and retention behavior across a scaling community operation.
+
+The system transforms raw order and check-in exports into structured, event-grain KPIs that support capacity planning, ticket release optimization, and long-term engagement strategy.
 
 ---
 
@@ -48,10 +50,11 @@ Dimensional modeling approach:
 
 Design principles:
 
-- One row per event grain  
-- Explicit separation of seats reserved vs verified check-ins    
-- All Power BI visuals driven from validated notebook outputs  
-
+- Event-grain dimensional structure with separate fact tables for orders and verified attendance  
+- Explicit separation of seats reserved vs verified check-ins  
+- Participant-level repeat tracking for engagement depth modeling  
+- All Power BI visuals driven exclusively from validated notebook outputs
+  
 ---
 
 ##  Methodology
@@ -92,7 +95,7 @@ Indicates early-stage community loyalty formation.
   to achieve ~70 verified attendees  
   (Based on historical attendance behavior)
 
-Demonstrates operational forecasting capability.
+Demonstrates scenario-based forecasting and capacity optimization using historical conversion behavior.
 
 ---
 
@@ -202,11 +205,10 @@ All dashboard measures trace directly to validated modeling results.
 
 ---
 
-##  Conclusion
+## Conclusion 
 
-Cozy Craft’s expansion from pilot events to scaled 2026 operations established a measurable attendance baseline and a predictable engagement structure.
-By combining dimensional modeling, conversion analysis, and scenario-based forecasting, this framework transforms event-level exports into a strategic capacity and retention planning system.
-The resulting analytics framework enables sustainable capacity planning, ticket optimization, and long-term community retention strategy.
+Cozy Craft’s transition from pilot-scale events to scaled operations established a measurable attendance baseline and repeat engagement structure.
 
+By integrating dimensional modeling, conversion analysis, and scenario-based forecasting, this framework converts event exports into a reproducible capacity planning and retention optimization system.
 
- 
+The resulting model enables sustainable ticket release strategy, attendance stabilization, and long-term community growth planning.
