@@ -1,9 +1,17 @@
 # Cozy Craft Community Analytics  
 Community Growth • Engagement Modeling • Capacity Forecasting  
 
-Event-level analytics and forecasting framework built in Python and Power BI to evaluate growth sustainability, attendance utilization efficiency, and retention behavior across a scaling community operation.
+## 🚀 Business Impact Snapshot
 
-The system transforms raw order and check-in exports into structured, event-grain KPIs that support capacity planning, ticket release optimization, and long-term engagement strategy.
+- Analyzed multi-event attendance across 6 events and 300+ participants  
+- Identified **~54% no-show rate (primary operational constraint)**  
+- Developed **~2.2x ticket release strategy** to consistently reach target attendance  
+- Built end-to-end analytics pipeline (Python → Power BI)  
+- Delivered forecasting model for capacity planning and community growth  
+
+Built a data-driven analytics and forecasting system to evaluate attendance behavior, retention patterns, and capacity utilization across a growing event-based business.
+
+The system transforms raw order and check-in exports into structured, event-level KPIs that support ticket release optimization, attendance forecasting, and long-term community growth strategy.
 
 ---
 
@@ -19,25 +27,24 @@ The system transforms raw order and check-in exports into structured, event-grai
 - [Tools & Technologies](#tools--technologies)
 - [Business Impact](#business-impact)
 - [Conclusion](#conclusion)
-- [Reproducibility & Validation](#-data-integrity--validation)
+- [Reproducibility & Validation](#data-integrity--validation)
 - [Repository Structure](#repository-structure)
 
-  
 ---
 
-##  Project Overview
+## Project Overview
 
 This project analyzes Cozy Craft’s transition from three 2025 pilot events to scaled 2026 operations, measuring attendance efficiency, repeat engagement, and growth sustainability across six total events.
 
 ---
 
-##  Business Objective
+## Business Objective
 
 To evaluate attendance efficiency, quantify community retention depth, and design a predictive ticket release strategy that supports sustainable operational scaling.
 
 ---
 
-##  Data Architecture
+## Data Architecture
 
 Dimensional modeling approach:
 
@@ -53,11 +60,11 @@ Design principles:
 - Event-grain dimensional structure with separate fact tables for orders and verified attendance  
 - Explicit separation of seats reserved vs verified check-ins  
 - Participant-level repeat tracking for engagement depth modeling  
-- All Power BI visuals driven exclusively from validated notebook outputs
-  
+- All Power BI visuals driven exclusively from validated notebook outputs  
+
 ---
 
-##  Methodology
+## Methodology
 
 The project followed a structured analytics pipeline:
 
@@ -72,25 +79,25 @@ All KPI calculations were programmatically validated in the final notebook secti
 
 ---
 
-##  Key Metrics & Insights
+## Key Metrics & Insights
 
 Analysis spans 6 total events (3 in 2025, 3 in 2026), with 2026 treated as the first stable operational baseline.
 
-###  Capacity Growth
+### Capacity Growth
 - **206% total capacity growth (2025 → 2026)**  
 - Event expansion from pilot-scale to large-format meetups  
 
-###  Attendance Utilization
+### Attendance Utilization
 - **46% average verified attendance rate (2026)**  
 - Clear opportunity to optimize ticket release volume  
 
-###  Engagement Depth
-- **44.31% Buyer → Attendee conversion rate (2026 baseline)**   
-- **18.92% repeat core participation rate (2+ events)**
-  
+### Engagement Depth
+- **44.31% Buyer → Attendee conversion rate (2026 baseline)**  
+- **18.92% repeat core participation rate (2+ events)**  
+
 Indicates early-stage community loyalty formation.
 
-###  Forecast Model
+### Forecast Model
 - **152 recommended ticket release**  
   to achieve ~70 verified attendees  
   (Based on historical attendance behavior)
@@ -99,7 +106,7 @@ Demonstrates scenario-based forecasting and capacity optimization using historic
 
 ---
 
-##  Power BI Dashboard
+## Power BI Dashboard
 
 Power BI serves as the executive synthesis layer.
 
@@ -121,13 +128,13 @@ Power BI serves as the executive synthesis layer.
 ### Page 4 — Forecast
 - Ticket Release Scenario Modeling  
 - Attendance Target Planning  
-- Capacity Optimization Strategy
-  
+- Capacity Optimization Strategy  
+
 All measures implemented in DAX and trace directly to validated notebook outputs.
 
 ---
 
-##  Dashboard Preview
+## Dashboard Preview
 
 These visuals represent the final executive reporting layer, built exclusively on validated modeling outputs from the Python pipeline.
 
@@ -151,8 +158,9 @@ These visuals represent the final executive reporting layer, built exclusively o
   <img src="images/cozy%20craft%20forecast%204.png" width="80%">
 </p>
 
+---
 
-##  Tools & Technologies
+## Tools & Technologies
 
 - Python (pandas, KPI engineering, modeling)  
 - Jupyter Notebook  
@@ -161,14 +169,14 @@ These visuals represent the final executive reporting layer, built exclusively o
 
 ---
 
-##  Business Impact
+## Business Impact
 
 This project demonstrates the ability to:
 
 - Translate event-level operational data into strategic KPIs  
 - Identify inefficiencies in ticket utilization  
 - Quantify community engagement depth  
-- Design data-driven growth forecasts    
+- Design data-driven growth forecasts  
 - Deliver stakeholder-ready dashboards  
 
 The framework can be adapted for:
@@ -180,9 +188,8 @@ The framework can be adapted for:
 
 ---
 
-##  Repository Structure
-
-```
+## Repository Structure
+~~~
 cozy-craft-community-analytics/
 │
 ├── data/
@@ -193,14 +200,15 @@ cozy-craft-community-analytics/
 ├── powerbi/
 ├── images/
 └── README.md
-```
+~~~
 
 ---
 
-##  Data Integrity & Validation
+## Data Integrity & Validation
+
 All executive KPIs were programmatically derived and reconciled against raw check-in exports in the final notebook section.
 
-No manual adjustments were applied to reporting outputs.
+No manual adjustments were applied to reporting outputs.  
 All dashboard measures trace directly to validated modeling results.
 
 ---
